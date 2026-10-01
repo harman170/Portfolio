@@ -206,14 +206,14 @@ document.addEventListener("DOMContentLoaded", () => {
             ]
         },
         noticehub: {
-            title: "CSB NoticeHub App",
+            title: "CSE NoticeHub App",
             category: "Flutter & Firebase",
             date: "Feb 2025",
             image: "assets/projects/noticehub.png",
             techStack: ["Flutter", "Dart", "Firebase Auth", "Cloud Firestore", "AnimationController"],
             role: "Mobile App Developer",
             problem: "Traditional notices on notice boards are often missed, and emails are buried. Akal University students needed an instant, structured alert system.",
-            solution: "Created CSB NoticeHub - a Flutter and Firebase mobile application featuring structured categories for push alerts, real-time message logs, and official attachments.",
+            solution: "Created CSE NoticeHub - a Flutter and Firebase mobile application featuring structured categories for push alerts, real-time message logs, and official attachments.",
             features: [
                 "Categorized notification alerts directly from department heads.",
                 "Real-time chat functionality supporting emojis and media uploads.",

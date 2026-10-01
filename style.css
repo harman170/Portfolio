@@ -441,6 +441,17 @@ section {
     box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
 }
 
+.social-link svg {
+    width: 20px;
+    height: 20px;
+    display: block;
+    transition: transform var(--transition-speed);
+}
+
+.social-link:hover svg {
+    transform: scale(1.1);
+}
+
 .hero-ctas {
     display: flex;
     flex-wrap: wrap;
