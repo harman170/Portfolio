@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmanjot Kaur | Portfolio - Web Developer & AI/ML Enthusiast</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Personal portfolio of Harmanjot Kaur, a Web Developer and AI/ML Enthusiast. B.Tech AI-ML student with experience in MERN stack, Flutter, and predictive modeling.">
+    <meta name="keywords" content="Harmanjot Kaur, Portfolio, Web Developer, AI-ML, MERN Stack, Flutter, Python, Akal University, Sun Soft Technologies, Software Engineer">
+    <meta name="author" content="Harmanjot Kaur">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Harmanjot Kaur | Portfolio">
+    <meta property="og:description" content="Explore my projects, skills, and experience in Web Development and Artificial Intelligence.">
+    <meta property="og:image" content="assets/profile.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body class="dark-theme">
+
+    <!-- Background Canvas/Constellation animation wrapper -->
+    <div class="bg-glow-container">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-accent">&lt;</span>HK<span class="logo-accent">/&gt;</span>
+            </a>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+                    <i data-lucide="sun" class="sun-icon"></i>
+                    <i data-lucide="moon" class="moon-icon"></i>
+                </button>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation Menu">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="welcome-badge">Welcome to my space</span>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="text-gradient">Harmanjot Kaur</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        I am a <span class="typing-text" id="typing-text"></span><span class="cursor">|</span>
+                    </h2>
+                    <p class="hero-description">
+                        An AI-ML engineering student passionate about crafting clean, modern web applications and building predictive intelligence models. Let's build something exceptional together.
+                    </p>
+
+                    <div class="hero-socials">
+                        <a href="https://github.com/harman170" target="_blank" class="social-link" title="GitHub">
+                            <i data-lucide="github"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/harman-jot-kaur-a97aa7314/" target="_blank" class="social-link" title="LinkedIn">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+
+                        <a href="https://medium.com/@harmanjotk1" target="_blank" class="social-link" title="Medium Blog">
+                            <i data-lucide="book-open"></i>
+                        </a>
+
+                        <a href="https://codeforces.com/profile/Harmanjot_Kaur123" target="_blank" class="social-link" title="Codeforces">
+                            <i data-lucide="code-2"></i>
+                        </a>
+                    </div>
+                    <div class="hero-ctas ">
+                        <a href="#projects " class="btn btn-primary ">View My Work</a>
+                        <a href="#contact " class="btn btn-secondary ">Let's Connect</a>
+
+                    </div>
+                </div>
+
+                <div class="hero-image-container ">
+                    <div class="avatar-glass-card ">
+                        <img src="assets/profile.png " alt="Harmanjot Kaur " class="avatar-img ">
+                        <div class="tech-badge badge-top-right ">
+                            <i data-lucide="code "></i>
+                        </div>
+                        <div class="tech-badge badge-bottom-left ">
+                            <i data-lucide="brain "></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#about " class="scroll-indicator " aria-label="Scroll Down ">
+                <i data-lucide="chevrons-down " class="bounce "></i>
+            </a>
+        </section>
+
+        <!-- About & Stats Section -->
+        <section class="about-section " id="about ">
+            <div class="container ">
+                <div class="section-header ">
+                    <span class="section-tag ">Identity</span>
+                    <h2 class="section-title ">About Me</h2>
+                </div>
+                <div class="about-grid ">
+                    <div class="about-bio ">
+                        <p>
+                            I am currently pursuing my <strong>B.Tech in Computer Science Engineering with a specialization in AI and Machine Learning</strong> at Akal University, Talwandi Sabo. Academically driven with a <strong>9+ CGPA</strong>, I love
+                            bridging the gap between sophisticated machine learning architectures and elegant, interactive frontend layouts.
+                        </p>
+                        <p>
+                            During my tenure as a Web Development Trainee at <strong>Sun Soft Technologies</strong>, I strengthened my design-to-deployment workflow, crafting clean UIs, writing robust database migrations, and testing on Render production
+                            staging environments.
+                        </p>
+                        <p>
+                            Whether compiling analytical insights from datasets or architecting MERN/Flutter pipelines, my focus is always on visual excellence, performance, and user convenience.
+                        </p>
+                    </div>
+
+                    <div class="stats-grid ">
+                        <div class="stat-card ">
+                            <div class="stat-icon "><i data-lucide="graduation-cap "></i></div>
+                            <div class="stat-num ">9+</div>
+                            <div class="stat-label ">CGPA (B.Tech AI-ML)</div>
+                        </div>
+                        <div class="stat-card ">
+                            <div class="stat-icon "><i data-lucide="layers "></i></div>
+                            <div class="stat-num ">4+</div>
+                            <div class="stat-label ">Key Projects Built</div>
+                        </div>
+                        <div class="stat-card ">
+                            <div class="stat-icon "><i data-lucide="award "></i></div>
+                            <div class="stat-num ">SIH</div>
+                            <div class="stat-label ">Hackathon Nominee</div>
+                        </div>
+                        <div class="stat-card ">
+                            <div class="stat-icon "><i data-lucide="git-pull-request "></i></div>
+                            <div class="stat-num ">GSSoC</div>
+                            <div class="stat-label ">Open Source Contributor</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-section " id="skills ">
+            <div class="container ">
+                <div class="section-header ">
+                    <span class="section-tag ">Capabilities</span>
+                    <h2 class="section-title ">Technical Skillset</h2>
+                </div>
+
+                <div class="skills-wrapper ">
+                    <!-- Tabs Selection -->
+                    <div class="skills-tabs ">
+                        <button class="skill-tab-btn active " data-tab="programming ">Languages</button>
+                        <button class="skill-tab-btn " data-tab="web-mobile ">Web & Mobile</button>
+                        <button class="skill-tab-btn " data-tab="ai-ml ">AI & ML</button>
+                        <button class="skill-tab-btn " data-tab="tools ">Tools & Platforms</button>
+                    </div>
+
+                    <!-- Skills Content Containers -->
+                    <div class="skills-content-container ">
+                        <!-- Programming -->
+                        <div class="skill-content-panel active " id="programming ">
+                            <div class="skill-item ">
+                                <div class="skill-info ">
+                                    <span>Python</span>
+                                    <span>55%</span>
+                                </div>
+                                <div class="skill-bar ">
+                                    <div class="skill-fill " style="width: 95% "></div>
+                                </div>
+                            </div>
+                            <div class="skill-item ">
+                                <div class="skill-info ">
+                                    <span>JavaScript</span>
+                                    <span>50%</span>
+                                </div>
+                                <div class="skill-bar ">
+                                    <div class="skill-fill " style="width: 88% "></div>
+                                </div>
+                            </div>
+                            <div class="skill-item ">
+                                <div class="skill-info ">
+                                    <span>C++</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar ">
+                                    <div class="skill-fill " style="width: 85% "></div>
+                                </div>
+                            </div>
+                            <div class="skill-item ">
+                                <div class="skill-info ">
+                                    <span>Dart</span>
+                                    <span>50%</span>
+                                </div>
+                                <div class="skill-bar ">
+                                    <div class="skill-fill " style="width: 80% "></div>
+                                </div>
+                            </div>
+                            <div class="skill-item ">
+                                <div class="skill-info ">
+                                    <span>SQL</span>
+                                    <span>55%</span>
+                                </div>
+                                <div class="skill-bar ">
+                                    <div class="skill-fill " style="width: 82% "></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Web & Mobile -->
+                        <div class="skill-content-panel " id="web-mobile ">
+                            <div class="skill-item ">
+                                <div class="skill-info ">
+                                    <span>React.js (MERN)</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar ">
+                                    <div class="skill-fill " style="width: 90% "></div>
+                                </div>
+                            </div>
+                            <div class="skill-item ">
+                                <div class="skill-info ">
+                                    <span>Flutter & Dart</span>
+                                    <span>55%</span>
+                                </div>
+                                <div class="skill-bar ">
+                                    <div class="skill-fill " style="width: 85% "></div>
+                                </div>
+                            </div>
+                            <div class="skill-item ">
+                                <div class="skill-info ">
+                                    <span>Node.js / Express</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar ">
+                                    <div class="skill-fill " style="width: 85% "></div>
+                                </div>
+                            </div>
+                            <div class="skill-item ">
+                                <div class="skill-info ">
+                                    <span>Angular.js / jQuery</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="skill-bar ">
+                                    <div class="skill-fill " style="width: 75% "></div>
+                                </div>
+                            </div>
+                            <div class="skill-item ">
+                                <div class="skill-info ">
+                                    <span>Bootstrap / CSS Grid</span>
+                                    <span>0%</span>
+                                </div>
+                                <div class="skill-bar ">
+                                    <div class="skill-fill " style="width: 90% "></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- AI & ML -->
+                        <div class="skill-content-panel " id="ai-ml ">
+                            <div class="skill-item ">
+                                <div class="skill-info ">
+                                    <span>Scikit-learn (Machine Learning)</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="skill-bar ">
+                                    <div class="skill-fill " style="width: 85% "></div>
+                                </div>
+                            </div>
+                            <div class="skill-item ">
+                                <div class="skill-info ">
+                                    <span>Pandas & NumPy</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar ">
+                                    <div class="skill-fill " style="width: 90% "></div>
+                                </div>
+                            </div>
+                            <div class="skill-item ">
+                                <div class="skill-info ">
+                                    <span>Matplotlib & Seaborn (Data Visualization)</span>
+                                    <span>8%</span>
+                                </div>
+                                <div class="skill-bar ">
+                                    <div class="skill-fill " style="width: 88% "></div>
+                                </div>
+                            </div>
+                            <div class="skill-item ">
+                                <div class="skill-info ">
+                                    <span>EDA & Data Cleaning</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar ">
+                                    <div class="skill-fill " style="width: 85% "></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tools & Platforms -->
+                        <div class="skill-content-panel " id="tools ">
+                            <div class="skill-item ">
+                                <div class="skill-info ">
+                                    <span>Git & GitHub</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar ">
+                                    <div class="skill-fill " style="width: 90% "></div>
+                                </div>
+                            </div>
+                            <div class="skill-item ">
+                                <div class="skill-info ">
+                                    <span>MySQL / MongoDB</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar ">
+                                    <div class="skill-fill " style="width: 85% "></div>
+                                </div>
+                            </div>
+                            <div class="skill-item ">
+                                <div class="skill-info ">
+                                    <span>Android Studio / VS Code</span>
+                                    <span>92%</span>
+                                </div>
+                                <div class="skill-bar ">
+                                    <div class="skill-fill " style="width: 92% "></div>
+                                </div>
+                            </div>
+                            <div class="skill-item ">
+                                <div class="skill-info ">
+                                    <span>Render / Firebase Hosting</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-bar ">
+                                    <div class="skill-fill " style="width: 80% "></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section " id="projects ">
+            <div class="container ">
+                <div class="section-header ">
+                    <span class="section-tag ">Portfolio</span>
+                    <h2 class="section-title ">My Projects</h2>
+                </div>
+
+                <div class="projects-filter ">
+                    <button class="filter-btn active " data-filter="all ">All</button>
+                    <button class="filter-btn " data-filter="web ">Web & Desktop</button>
+                    <button class="filter-btn " data-filter="mobile ">Mobile Apps</button>
+                    <button class="filter-btn " data-filter="ml ">AI & Data Science</button>
+                    <button class="filter-btn " data-filter="upcoming ">Upcoming</button>
+                </div>
+
+                <div class="projects-grid ">
+                    <!-- Project 1: Medicine Donation -->
+                    <div class="project-card " data-category="web " id="card-meds ">
+                        <div class="project-img-wrapper ">
+                            <img src="assets/projects/meds.png " alt="Medicine Donation Platform ">
+                            <span class="project-category-tag ">MERN Stack</span>
+                        </div>
+                        <div class="project-info ">
+                            <h3 class="project-card-title ">Medicine Donation Platform</h3>
+                            <p class="project-card-desc ">
+                                A full-stack MERN application for medical supply tracking, donation coordination, and real-time database synchronization.
+                            </p>
+                            <div class="project-tags ">
+                                <span>MongoDB</span>
+                                <span>Express</span>
+                                <span>React</span>
+                                <span>Node</span>
+                            </div>
+                            <button class="btn btn-secondary btn-sm open-modal-btn " data-project="meds ">
+                                View Details <i data-lucide="external-link "></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: CSB NoticeHub -->
+                    <div class="project-card " data-category="mobile " id="card-noticehub ">
+                        <div class="project-img-wrapper ">
+                            <img src="assets/projects/noticehub.png " alt="CSB NoticeHub ">
+                            <span class="project-category-tag ">Flutter / Firebase</span>
+                        </div>
+                        <div class="project-info ">
+                            <h3 class="project-card-title ">CSB NoticeHub</h3>
+                            <p class="project-card-desc ">
+                                Centralized real-time department notification application featuring secure authentication, media sharing, and instant chat.
+                            </p>
+                            <div class="project-tags ">
+                                <span>Flutter</span>
+                                <span>Dart</span>
+                                <span>Firebase</span>
+                                <span>AnimationController</span>
+                            </div>
+                            <button class="btn btn-secondary btn-sm open-modal-btn " data-project="noticehub ">
+                                View Details <i data-lucide="external-link "></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: NextHope -->
+                    <div class="project-card " data-category="web " id="card-nexthope ">
+                        <div class="project-img-wrapper ">
+                            <img src="assets/projects/nexthope.png " alt="NextHope Platform ">
+                            <span class="project-category-tag ">Node / Express</span>
+                        </div>
+                        <div class="project-info ">
+                            <h3 class="project-card-title ">NextHope Volunteer Platform</h3>
+                            <p class="project-card-desc ">
+                                Volunteer coordination platform that connects helpers with rehabilitation projects, featuring role-based secure routes.
+                            </p>
+                            <div class="project-tags ">
+                                <span>Node.js</span>
+                                <span>Express</span>
+                                <span>MongoDB</span>
+                                <span>JWT</span>
+                            </div>
+                            <button class="btn btn-secondary btn-sm open-modal-btn " data-project="nexthope ">
+                                View Details <i data-lucide="external-link "></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: Wine Quality -->
+                    <div class="project-card " data-category="ml " id="card-wine ">
+                        <div class="project-img-wrapper ">
+                            <img src="assets/projects/wine.png " alt="Wine Quality Prediction ">
+                            <span class="project-category-tag ">Data Science</span>
+                        </div>
+                        <div class="project-info ">
+                            <h3 class="project-card-title ">Wine Quality Classifier</h3>
+                            <p class="project-card-desc ">
+                                Predictive machine learning classifier conducting evaluation of 10 classification models to determine chemical factors affecting quality.
+                            </p>
+                            <div class="project-tags ">
+                                <span>Python</span>
+                                <span>Scikit-learn</span>
+                                <span>Pandas</span>
+                                <span>Seaborn</span>
+                            </div>
+                            <button class="btn btn-secondary btn-sm open-modal-btn " data-project="wine ">
+                                View Details <i data-lucide="external-link "></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Project 5: DAX Financial Analytics (Upcoming) -->
+                    <div class="project-card upcoming " data-category="ml upcoming " id="card-dax ">
+                        <div class="project-img-wrapper ">
+                            <img src="assets/projects/dax.jpg " alt="DAX Financial Analytics ">
+                            <span class="project-category-tag ">BI & Analytics</span>
+                        </div>
+                        <div class="project-info ">
+                            <h3 class="project-card-title ">DAX Financial & BI Analytics Engine</h3>
+                            <p class="project-card-desc ">
+                                Enterprise data modeling and automated BI reporting using complex DAX measures, time-intelligence formulas, and SQL database pipelines.
+                            </p>
+                            <div class="project-tags ">
+                                <span>DAX</span>
+                                <span>Power BI</span>
+                                <span>SQL</span>
+                                <span>Data Modeling</span>
+                            </div>
+                            <button class="btn btn-secondary btn-sm open-modal-btn " data-project="dax ">
+                                View Details <i data-lucide="external-link "></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Project 6: OmniAI Multimodal Suite (Upcoming) -->
+                    <div class="project-card upcoming " data-category="ml web upcoming " id="card-omni ">
+                        <div class="project-img-wrapper ">
+                            <img src="assets/projects/omni.jpg " alt="OmniAI Multimodal Intelligence ">
+                            <span class="project-category-tag ">Multimodal AI</span>
+                        </div>
+                        <div class="project-info ">
+                            <h3 class="project-card-title ">OmniAI - Multimodal Intelligence Suite</h3>
+                            <p class="project-card-desc ">
+                                Unified multimodal AI studio fusing speech transcription, vision reasoning, and agentic workflows into a responsive workspace.
+                            </p>
+                            <div class="project-tags ">
+                                <span>PyTorch</span>
+                                <span>Transformers</span>
+                                <span>FastAPI</span>
+                                <span>React</span>
+                            </div>
+                            <button class="btn btn-secondary btn-sm open-modal-btn " data-project="omni ">
+                                View Details <i data-lucide="external-link "></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Project 7: EstateSync Desktop Suite (Upcoming) -->
+                    <div class="project-card upcoming " data-category="web upcoming " id="card-estatesync ">
+                        <div class="project-img-wrapper ">
+                            <img src="assets/projects/estatesync.jpg " alt="EstateSync Desktop Software ">
+                            <span class="project-category-tag ">Java / Desktop</span>
+                        </div>
+                        <div class="project-info ">
+                            <h3 class="project-card-title ">EstateSync - Real Estate Brokerage Suite</h3>
+                            <p class="project-card-desc ">
+                                Desktop management software built with JavaFX and MySQL to organize properties, customer verification, deal lifecycle, and interactive BI charts.
+                            </p>
+                            <div class="project-tags ">
+                                <span>Java</span>
+                                <span>JavaFX</span>
+                                <span>MySQL</span>
+                                <span>Analytics</span>
+                            </div>
+                            <button class="btn btn-secondary btn-sm open-modal-btn " data-project="estatesync ">
+                                View Details <i data-lucide="external-link "></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education Section -->
+        <section class="experience-section " id="experience ">
+            <div class="container ">
+                <div class="section-header ">
+                    <span class="section-tag ">Timeline</span>
+                    <h2 class="section-title ">Experience & Education</h2>
+                </div>
+
+                <div class="timeline ">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item ">
+                        <div class="timeline-dot "></div>
+                        <div class="timeline-date ">Jan 2026 - May 2026
+                        </div>
+
+                        <div class="timeline-content ">
+                            <h3>Full-Stack Developer (Medicine Platform)</h3>
+                            <span class="timeline-subtitle ">Independent Project / MERN Architecture</span>
+                            <p>
+                                Architecting real-time state synchronization, medicine collection routes, and inventory updates using MERN. Designed responsive control boards for medical organizations.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item ">
+                        <div class="timeline-dot "></div>
+                        <div class="timeline-date ">Feb 2025 - Jul 2025</div>
+                        <div class="timeline-content ">
+                            <h3>Web Development Trainee</h3>
+                            <span class="timeline-subtitle ">Sun Soft Technologies, Bathinda</span>
+                            <p>
+                                Built interactive layout mockups using JavaScript, jQuery, and Angular.js. Optimized SQL queries, maintained relational schemas with MySQL, and managed app staging runs on Render.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 3 -->
+                    <div class="timeline-item ">
+                        <div class="timeline-dot "></div>
+                        <div class="timeline-date ">2023 - 2027</div>
+                        <div class="timeline-content ">
+                            <h3>B.Tech (Computer Science & Engineering)</h3>
+                            <span class="timeline-subtitle ">Akal University, Talwandi Sabo</span>
+                            <p>
+                                Specialized in Artificial Intelligence and Machine Learning. Maintaining a stellar academic track record with <strong>9+CGPA</strong>. Active club coordinator and university tech fest coordinator.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 4 -->
+                    <div class="timeline-item ">
+                        <div class="timeline-dot "></div>
+                        <div class="timeline-date ">Completed 2022</div>
+                        <div class="timeline-content ">
+                            <h3>Senior Secondary (Non-Medical)</h3>
+                            <span class="timeline-subtitle ">Good Day Defence School, Rajasthan</span>
+                            <p>
+                                Concluded Class 12 board assessments with a score of 78%. Focused extensively on Physics, Chemistry, and Advanced Mathematics.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements & Certifications Carousel Section -->
+        <section class="achievements-section ">
+            <div class="container ">
+                <div class="section-header ">
+                    <span class="section-tag ">Stamps of Honor</span>
+                    <h2 class="section-title ">Achievements & Certifications</h2>
+                </div>
+
+                <div class="achievements-grid ">
+                    <div class="achievement-card ">
+                        <i data-lucide="presentation " class="ach-icon "></i>
+                        <h4>IEEE CI2A-2026</h4>
+                        <p>Research Presenter at the International Conference on Computing, Technologies, and Applications.</p>
+                    </div>
+                    <div class="achievement-card ">
+                        <i data-lucide="flame " class="ach-icon "></i>
+                        <h4>Smart India Hackathon</h4>
+                        <p>Selected for national-level rounds of SIH-2025 and SIH-2026 for technology solutions.
+                        </p>
+                    </div>
+                    <div class="achievement-card ">
+                        <i data-lucide="terminal " class="ach-icon "></i>
+                        <h4>GSSoC-2025 Contributor</h4>
+                        <p>Selected as open-source codebase contributor in GirlScript Summer of Code.</p>
+                    </div>
+                    <div class="achievement-card ">
+                        <i data-lucide="file-check-2 " class="ach-icon "></i>
+                        <h4>Web Dev Bootcamp</h4>
+                        <p>Certified in Full Stack Development (Udemy - Angela Yu, and Apna College Sigma 7.0).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section " id="contact ">
+            <div class="container ">
+                <div class="section-header ">
+                    <span class="section-tag ">Let's Connect</span>
+                    <h2 class="section-title ">Get in Touch</h2>
+                </div>
+
+                <div class="contact-wrapper ">
+                    <!-- Contact Cards -->
+                    <div class="contact-info ">
+                        <h3>Reach Out to Me</h3>
+                        <p>Have an interesting project in mind or looking to collaborate? Drop me a message, and I'll get back to you within 24 hours.</p>
+
+                        <div class="contact-details ">
+                            <div class="contact-detail-item ">
+                                <div class="detail-icon "><i data-lucide="mail "></i></div>
+                                <div>
+                                    <div class="detail-label ">Email</div>
+                                    <a href="mailto:harmanjotkt173@gmail.com " class="detail-val ">harmanjotkt173@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-item ">
+                                <div class="detail-icon "><i data-lucide="phone "></i></div>
+                                <div>
+                                    <div class="detail-label ">Phone</div>
+                                    <a href="tel:+918050075128 " class="detail-val ">+91-8000075125</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-item ">
+                                <div class="detail-icon "><i data-lucide="map-pin "></i></div>
+                                <div>
+                                    <div class="detail-label ">Location</div>
+                                    <span class="detail-val ">Bathinda, Punjab, India</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-container ">
+                        <form class="contact-form " id="contact-form ">
+                            <div class="form-group ">
+                                <input type="text " id="form-name " class="form-input " required placeholder=" ">
+                                <label for="form-name " class="form-label ">Full Name</label>
+                            </div>
+                            <div class="form-group ">
+                                <input type="email " id="form-email " class="form-input " required placeholder=" ">
+                                <label for="form-email " class="form-label ">Email Address</label>
+                            </div>
+                            <div class="form-group ">
+                                <input type="text " id="form-subject " class="form-input " required placeholder=" ">
+                                <label for="form-subject " class="form-label ">Subject</label>
+                            </div>
+                            <div class="form-group ">
+                                <textarea id="form-message " class="form-input form-textarea " required placeholder=" "></textarea>
+                                <label for="form-message " class="form-label ">Message</label>
+                            </div>
+                            <button type="submit " class="btn btn-primary btn-block ">
+                                Send Message <i data-lucide="send "></i>
+                            </button>
+                            <div class="form-status " id="form-status "></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer ">
+        <div class="container footer-container ">
+            <p>&copy; 2026 Harmanjot Kaur. All rights reserved.</p>
+            <p>Designed and Built for WebCrafters Portfolio Challenge.</p>
+        </div>
+    </footer>
+
+    <!-- Project Detail Modal Overlays -->
+    <div class="modal-overlay " id="project-modal ">
+        <div class="modal-content ">
+            <button class="modal-close-btn " id="modal-close " aria-label="Close details ">
+                <i data-lucide="x "></i>
+            </button>
+            <div id="modal-project-details ">
+                <!-- Dynamically injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="app.js "></script>
+</body>
+
+</html>
